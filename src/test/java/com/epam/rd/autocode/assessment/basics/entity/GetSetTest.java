@@ -1,7 +1,7 @@
-package com.epam.rd.autocode.assestment.basics.entity;
+package com.epam.rd.autocode.assessment.basics.entity;
 
-import com.epam.rd.autocode.assestment.basics.entity.enums.AgeGroup;
-import com.epam.rd.autocode.assestment.basics.entity.enums.Language;
+import com.epam.rd.autocode.assessment.basics.entity.enums.AgeGroup;
+import com.epam.rd.autocode.assessment.basics.entity.enums.Language;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 

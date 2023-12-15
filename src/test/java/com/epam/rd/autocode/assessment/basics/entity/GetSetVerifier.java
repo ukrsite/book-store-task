@@ -1,4 +1,4 @@
-package com.epam.rd.autocode.assestment.basics.entity;
+package com.epam.rd.autocode.assessment.basics.entity;
 
 import org.junit.jupiter.api.Assertions;
 
