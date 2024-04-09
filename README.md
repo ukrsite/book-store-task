@@ -8,7 +8,7 @@ Duration: **30** minutes
 
 In this exercise, you will implement java classes that represent the model to store data about a certain book’s orders.
 The class diagram of the Domain model is shown in the figure below:
-![book-diagram-v1.png](book-diagram-v1.png)
+![diagram.png](diagram.png)
 
 ## Details
 
