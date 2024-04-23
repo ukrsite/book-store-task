@@ -13,28 +13,31 @@ The class diagram of the Domain model is shown in the figure below:
 ## Details
 
 These classes must have the following:
-* A default constructor
-*	A constructor that takes values to initialize all fields as parameters
-*	Getters and setters for all fields
-*	The `equals()`, `hashCode()`, and `toString()` methods
+  * A default constructor
+  *	A constructor that takes values to initialize all fields as parameters
+  *	Getters and setters for all fields
+  *	The `equals()`, `hashCode()`, and `toString()` methods 
 
 Enum classes must have the following:
-* All the provided constants
+  * All the provided constants
 
 
 _Note_: You should create all the provided classes with appropriate methods to correctly iterate through the save process to the database or file for future tasks.
 
-A string representation of an object of these classes must follow the following convention:
+A string representation of an object of these classes must follow the following convention: 
 ```
 Class_name{field1_name=field_value, field2_name=field_value, …}
 ```
-- If a class inherits another class, it must include inherited fields before its own fields:
+- If a class inherits another class, it must include inherited fields before its own fields: 
 ```
 Class_name{parent_class_fields, own_fields}
 ```
 - String values must be surrounded by apostrophes. For example: `text='value'`
 - If a field is a collection or an array, its value must be surrounded by square brackets.
 - Fields must be ordered as denoted in the UML class diagram.
+
+> Note: String fields within the `Book` class should adhere to the following convention: `text=value`.
+> String values must not be surrounded by apostrophes.
 
 ### An example of a string representation:
 Let class `A` have the following definition:
@@ -63,3 +66,6 @@ The string representation of the object will be as follows:
 ```
 B{a=1, s='a string', b=5, t='a text', chars=[a, b]}
 ```
+
+> Note: Ensure that the `toString` method implementation for both the `Employee` and `Client` classes
+> exclude the `password` value for security reasons.
