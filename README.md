@@ -36,9 +36,6 @@ Class_name{parent_class_fields, own_fields}
 - If a field is a collection or an array, its value must be surrounded by square brackets.
 - Fields must be ordered as denoted in the UML class diagram.
 
-> Note: String fields within the `Book` class should adhere to the following convention: `text=value`.
-> String values must not be surrounded by apostrophes.
-
 ### An example of a string representation:
 Let class `A` have the following definition:
 ```
